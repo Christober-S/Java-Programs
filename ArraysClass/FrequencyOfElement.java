@@ -4,7 +4,6 @@ public class FrequencyOfElement {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 1, 2, 3, 4, 1, 2, 1};
         int n = arr.length;
-
         int[] freq = new int[n];
         int visited = -1;
 
@@ -13,7 +12,7 @@ public class FrequencyOfElement {
             for (int j = i + 1; j < n; j++) {
                 if (arr[i] == arr[j]) {
                     count++;
-                    freq[j] = visited; // mark visited
+                    freq[j] = visited;
                 }
             }
             if (freq[i] != visited) {
@@ -21,7 +20,6 @@ public class FrequencyOfElement {
             }
         }
 
-        // Print frequencies
         System.out.println("Frequency of each element:");
         for (int i = 0; i < n; i++) {
             if (freq[i] != visited) {
