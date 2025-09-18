@@ -1,3 +1,4 @@
+package FOP;
 public class EvenIndexed {
     public static void main(String[] args) {
         String words = "Hello World";

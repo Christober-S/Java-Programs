@@ -1,5 +1,4 @@
 package Interface;
-
 public class DinningRestaurant implements Restaurant {
     @Override
     public void orderConfirmed() {
