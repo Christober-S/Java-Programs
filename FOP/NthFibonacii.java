@@ -1,3 +1,5 @@
+package FOP;
+
 import java.util.Scanner;
 
 public class NthFibonacii {
