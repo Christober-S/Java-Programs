@@ -1,0 +1,6 @@
+package com.christober.learning.stringprograms;
+public class Main {
+    static void main() {
+        System.out.println("Hello World");
+    }
+}
