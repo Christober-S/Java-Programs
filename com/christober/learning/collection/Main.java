@@ -1,4 +1,4 @@
-package com.christober.learning.collection;
+package learning.collection;
 import java.util.Vector;
  class Main {
     static void main() {
