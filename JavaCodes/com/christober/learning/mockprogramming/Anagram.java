@@ -1,4 +1,4 @@
-package com.christober.learning.mockprogramming;
+package christober.learning.mockprogramming;
 public class Anagram {
     static void main() {
         String str = "Hello";

@@ -1,4 +1,4 @@
-package com.christober.learning.collection;
+package christober.learning.collection;
 
 import java.util.*;
 
