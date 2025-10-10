@@ -16,5 +16,8 @@ public class ArrListClear {
          System.out.println("Size before clear: " + list.size());
          list.clear();
          System.out.println("Size after clear: " + list.size());
+         if(list.isEmpty()){
+             System.out.println("List is empty");
+         }
     }
 }
