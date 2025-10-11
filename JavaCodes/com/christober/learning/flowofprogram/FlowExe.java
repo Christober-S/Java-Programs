@@ -1,4 +1,4 @@
-package com.christober.learning.flowofprogram;
+package christober.learning.flowofprogram;
 
 public class FlowExe {
     static {
