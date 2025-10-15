@@ -2,7 +2,7 @@ package christober.learning.collection.linkedlistpgm;
 import java.util.LinkedList;
 import java.util.ListIterator;
 public class RemoveDupUnsortedLinkedList {
-    //Write a program to remove duplicates from a unsorted linked list of integers
+    //Write a program to remove duplicates from unsorted linked list of integers
     static void main() {
         LinkedList<Integer> list = new LinkedList<>();
         list.add(1);
