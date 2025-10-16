@@ -2,7 +2,7 @@ package christober.thinkcore;
 
 public class ReverseTheArray {
     //Reverse the array using two pointer approach
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
         int left = 0, right = arr.length - 1;
         while (left < right) {
