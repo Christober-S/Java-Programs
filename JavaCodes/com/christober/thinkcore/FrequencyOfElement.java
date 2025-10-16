@@ -16,5 +16,14 @@ public class FrequencyOfElement {
             }
             System.out.println("The frequency of element: " + arr[i] + " is: " + count);
         }
+        // Using HashMap
+        System.out.println("Using HashMap");
+        java.util.HashMap<Integer, Integer> map = new java.util.HashMap<>();
+        for (int num : arr) {
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+        for (java.util.Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            System.out.println("The frequency of element: " + entry.getKey() + " is: " + entry.getValue());
+        }
     }
 }
