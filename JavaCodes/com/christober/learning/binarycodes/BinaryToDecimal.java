@@ -1,4 +1,4 @@
-package com.christober.learning.binarycodes;
+package christober.learning.binarycodes;
 
 import java.util.Scanner;
 

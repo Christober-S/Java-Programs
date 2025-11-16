@@ -1,4 +1,4 @@
-package com.christober.projects.BankingApplication;
+package christober.projects.BankingApplication;
 
 public class BankAccount {
     private int accountNumber;

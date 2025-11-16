@@ -1,4 +1,4 @@
-package com.christober.learning.fop;
+package christober.learning.fop;
 import java.util.Scanner;
 public class DivisbleNumber {
     public static void main(String[] args) {

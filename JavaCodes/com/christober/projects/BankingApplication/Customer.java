@@ -1,4 +1,4 @@
-package com.christober.projects.BankingApplication;
+package christober.projects.BankingApplication;
 
 import java.util.Scanner;
 
@@ -39,4 +39,5 @@ public class Customer extends BankAccount{
                 System.out.println("Invalid option.");
         }
     }
+
 }

@@ -1,4 +1,6 @@
-package com.christober.learning.encapsulation;
+package christober.learning.encapsulation;
+
+import christober.learning.encapsulation.Employee;
 
 public class Main extends Employee {
     public static void main(String[] args) {

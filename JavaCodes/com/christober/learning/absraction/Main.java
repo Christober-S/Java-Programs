@@ -1,15 +1,16 @@
-package com.christober.learning.absraction;
+package christober.learning.absraction;
 
 public class Main  {
     public static void main(String[] args) {
-        Products product = new Products() {
+        com.christober.learning.absraction.Products product = new com.christober.learning.absraction.Products() {
             @Override
-            void productId() {
-                System.out.println("Product ID: 12345");
+            public void productId() {
+
             }
+
             @Override
-            void productName() {
-                System.out.println("Product Name: Laptop");
+            public void productName() {
+
             }
         };
         product.productId();

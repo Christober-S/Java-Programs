@@ -1,7 +1,5 @@
 package christober.learning.collection.hashsetpgms;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.HashSet;
 
 // Create Student class
@@ -10,7 +8,7 @@ record Student(int id, String name, int age) {
 
     // toString() to print details
     @Override
-    public @NotNull String toString() {
+    public String toString() {
         return "Student[id=" + id + ", name='" + name + "', age=" + age + "]";
     }
 

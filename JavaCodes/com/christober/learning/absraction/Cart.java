@@ -1,4 +1,4 @@
-package com.christober.learning.absraction;
+package christober.learning.absraction;
 
 public class Cart extends Payment {
     public static void main(String[] args) {

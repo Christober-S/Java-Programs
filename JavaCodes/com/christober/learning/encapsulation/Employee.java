@@ -1,4 +1,4 @@
-package com.christober.learning.encapsulation;
+package christober.learning.encapsulation;
 
 public class Employee {
     private String ename;

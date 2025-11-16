@@ -1,6 +1,7 @@
-package com.christober.learning.constructorsprograms;
+package christober.learning.constructorsprograms;
 
 public class Program1 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
+        
     }
 }

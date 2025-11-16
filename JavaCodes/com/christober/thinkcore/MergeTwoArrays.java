@@ -24,5 +24,9 @@ public class MergeTwoArrays {
         for (int num : merged) {
             System.out.print(num + " ");
         }
+
+        String [] str = new String[5];
+        System.out.println(str[0]);
+
     }
 }

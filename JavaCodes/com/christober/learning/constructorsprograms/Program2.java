@@ -1,4 +1,4 @@
-package com.christober.learning.constructorsprograms;
+package christober.learning.constructorsprograms;
 
-class Program2 extends com.christober.learning.constructorsprograms.Program1{
+class Program2 extends Program1{
 }
